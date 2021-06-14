@@ -1,0 +1,9 @@
+init_ver: 20210604
+plugins:
+- PDBClustering
+- SIFTS
+struct_mirror:
+  cif: false
+  cif_init_ver: null
+  pdb: false
+  pdb_init_ver: null

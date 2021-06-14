@@ -1,0 +1,42 @@
+[2021-06-14 14:38:37,874] [localpdb_setup.py] DEBUG - Using 'rcsb' mirror for downloads.
+[2021-06-14 14:38:37,874] [localpdb_setup.py] DEBUG - Current remote PDB version is '20210604'
+[2021-06-14 14:38:37,875] [localpdb_setup.py] INFO - Downloading release data for the PDB version: '20210604'...
+[2021-06-14 14:38:40,571] [network.py] DEBUG - Downloaded url: 'https://ftp.rcsb.org/pub/pdb/derived_data/index/entries.idx' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/pdb_entries.txt'
+[2021-06-14 14:38:40,906] [PDBDownloader.py] DEBUG - Timestamp of the file: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/pdb_entries.txt' matches the PDB version: '20210604'
+[2021-06-14 14:38:42,093] [network.py] DEBUG - Downloaded url: 'https://ftp.rcsb.org/pub/pdb/derived_data/pdb_entry_type.txt' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/pdb_entries_type.txt'
+[2021-06-14 14:38:42,429] [PDBDownloader.py] DEBUG - Timestamp of the file: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/pdb_entries_type.txt' matches the PDB version: '20210604'
+[2021-06-14 14:38:42,760] [network.py] DEBUG - Downloaded url: 'https://ftp.rcsb.org/pub/pdb/compatible/pdb_bundle/pdb_bundle_index.txt' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/pdb_bundles.txt'
+[2021-06-14 14:38:43,092] [PDBDownloader.py] DEBUG - Timestamp of the file: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/pdb_bundles.txt' matches the PDB version: '20210604'
+[2021-06-14 14:38:44,183] [network.py] DEBUG - Downloaded url: 'https://ftp.rcsb.org/pub/pdb/derived_data/index/resolu.idx' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/pdb_resolution.txt'
+[2021-06-14 14:38:44,517] [PDBDownloader.py] DEBUG - Timestamp of the file: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/pdb_resolution.txt' matches the PDB version: '20210604'
+[2021-06-14 14:38:47,006] [network.py] DEBUG - Downloaded url: 'https://ftp.rcsb.org/pub/pdb/derived_data/pdb_seqres.txt.gz' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/pdb_seqres.txt.gz'
+[2021-06-14 14:38:47,334] [PDBDownloader.py] DEBUG - Timestamp of the file: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/pdb_seqres.txt.gz' matches the PDB version: '20210604'
+[2021-06-14 14:38:47,664] [network.py] DEBUG - Downloaded url: 'https://ftp.rcsb.org/pub/pdb/data/status//20210604/added.pdb' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/added.txt'
+[2021-06-14 14:38:47,998] [PDBDownloader.py] DEBUG - Timestamp of the file: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/added.txt' matches the PDB version: '20210604'
+[2021-06-14 14:38:48,330] [network.py] DEBUG - Downloaded url: 'https://ftp.rcsb.org/pub/pdb/data/status//20210604/modified.pdb' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/modified.txt'
+[2021-06-14 14:38:48,663] [PDBDownloader.py] DEBUG - Timestamp of the file: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/modified.txt' matches the PDB version: '20210604'
+[2021-06-14 14:38:48,670] [connectionpool.py] DEBUG - Starting new HTTPS connection (1): data.rcsb.org:443
+[2021-06-14 14:38:49,205] [connectionpool.py] DEBUG - https://data.rcsb.org:443 "POST /graphql HTTP/1.1" 200 None
+[2021-06-14 14:38:49,573] [network.py] DEBUG - Downloaded url: 'https://ftp.rcsb.org/pub/pdb/data/status/20210604/obsolete.pdb' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/obsolete.txt'
+[2021-06-14 14:38:49,904] [PDBDownloader.py] DEBUG - Timestamp of the file: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/data/20210604/obsolete.txt' matches the PDB version: '20210604'
+[2021-06-14 14:38:50,996] [localpdb_setup.py] INFO - Successfully set up localpdb in '/home/users/jludwiczak/localpdb-mybinder/lpdb_data'
+[2021-06-14 14:38:52,086] [localpdb_setup.py] INFO - Setting up plugin: 'PDBClustering'...
+[2021-06-14 14:38:52,135] [localpdb_setup.py] WARNING - Plugin 'PDBClustering' does not support the history versioning. Only version corresponding to the current PDB release can be installed.
+[2021-06-14 14:38:53,234] [localpdb_setup.py] INFO - Attempting to install plugin 'PDBClustering' for localpdb version(s): 20210604
+[2021-06-14 14:38:59,897] [network.py] DEBUG - Downloaded url: 'https://cdn.rcsb.org/resources/sequence/clusters/bc-30.out' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/clustering/20210604/bc-30.out'
+[2021-06-14 14:39:01,657] [network.py] DEBUG - Downloaded url: 'https://cdn.rcsb.org/resources/sequence/clusters/bc-40.out' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/clustering/20210604/bc-40.out'
+[2021-06-14 14:39:03,519] [network.py] DEBUG - Downloaded url: 'https://cdn.rcsb.org/resources/sequence/clusters/bc-50.out' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/clustering/20210604/bc-50.out'
+[2021-06-14 14:39:05,370] [network.py] DEBUG - Downloaded url: 'https://cdn.rcsb.org/resources/sequence/clusters/bc-70.out' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/clustering/20210604/bc-70.out'
+[2021-06-14 14:39:07,317] [network.py] DEBUG - Downloaded url: 'https://cdn.rcsb.org/resources/sequence/clusters/bc-90.out' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/clustering/20210604/bc-90.out'
+[2021-06-14 14:39:09,314] [network.py] DEBUG - Downloaded url: 'https://cdn.rcsb.org/resources/sequence/clusters/bc-95.out' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/clustering/20210604/bc-95.out'
+[2021-06-14 14:39:11,062] [network.py] DEBUG - Downloaded url: 'https://cdn.rcsb.org/resources/sequence/clusters/bc-100.out' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/clustering/20210604/bc-100.out'
+[2021-06-14 14:39:11,502] [localpdb_setup.py] INFO - Successfully installed plugin 'PDBClustering' for the localpdb version: 20210604
+[2021-06-14 14:39:11,505] [localpdb_setup.py] INFO - Setting up plugin: 'SIFTS'...
+[2021-06-14 14:39:11,512] [localpdb_setup.py] WARNING - Plugin 'SIFTS' does not support the history versioning. Only version corresponding to the current PDB release can be installed.
+[2021-06-14 14:39:12,657] [localpdb_setup.py] INFO - Attempting to install plugin 'SIFTS' for localpdb version(s): 20210604
+[2021-06-14 14:39:19,499] [network.py] DEBUG - Downloaded url: 'ftp://ftp.ebi.ac.uk/pub/databases/msd/sifts/flatfiles/tsv/pdb_chain_taxonomy.tsv.gz' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/sifts/20210604//pdb_chain_taxonomy.tsv.gz'
+[2021-06-14 14:39:20,158] [network.py] DEBUG - Downloaded url: 'ftp://ftp.ebi.ac.uk/pub/databases/msd/sifts/flatfiles/tsv/pdb_chain_enzyme.tsv.gz' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/sifts/20210604//pdb_chain_enzyme.tsv.gz'
+[2021-06-14 14:39:20,863] [network.py] DEBUG - Downloaded url: 'ftp://ftp.ebi.ac.uk/pub/databases/msd/sifts/flatfiles/tsv/pdb_chain_pfam.tsv.gz' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/sifts/20210604//pdb_chain_pfam.tsv.gz'
+[2021-06-14 14:39:21,561] [network.py] DEBUG - Downloaded url: 'ftp://ftp.ebi.ac.uk/pub/databases/msd/sifts/flatfiles/tsv/pdb_chain_cath_uniprot.tsv.gz' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/sifts/20210604//pdb_chain_cath_uniprot.tsv.gz'
+[2021-06-14 14:39:22,227] [network.py] DEBUG - Downloaded url: 'ftp://ftp.ebi.ac.uk/pub/databases/msd/sifts/flatfiles/tsv/pdb_chain_scop_uniprot.tsv.gz' to destination: '/home/users/jludwiczak/localpdb-mybinder/lpdb_data/sifts/20210604//pdb_chain_scop_uniprot.tsv.gz'
+[2021-06-14 14:39:22,372] [localpdb_setup.py] INFO - Successfully installed plugin 'SIFTS' for the localpdb version: 20210604
