@@ -1,3 +1,2 @@
 localpdb==0.2.1
-gzip
 seaborn==0.11.1
