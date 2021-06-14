@@ -1,0 +1,2 @@
+localpdb==0.2.1
+seaborn==0.11.1
